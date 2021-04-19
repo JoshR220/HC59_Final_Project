@@ -22,3 +22,4 @@ Essentially, all that occurs is that you shift the parameters of the quatum circ
 
 Given all the above information, the goal of this repsitory is expanding on the tutorial in the Qiskit textbook. Currently, the Qiskit tutorial only creates a hybrid network that learns to distinguish between the digits 0 and 1 and show that the hybrid network can well distinguish between the two digits after training- it is actually able to practically 100% determine the two digits after training. My goal is to expand this circuit to at least 4 digits- 0,1,2,3- and potentially add entanglement to see if that has an effect on the results of the hybrid network compared to a classical CNN. 
  
+ (Pictures from Qiskit textbook and MNIST dataset)
