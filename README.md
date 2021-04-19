@@ -17,3 +17,6 @@ The demonstration of the hybrid network is to illustrate that quantum components
 The greatest difference between the classical and quantum machine learning components is the computation of gradients for backpropogation. Quantum circuits use the parameter shift rule in order to calculate gradients. The Qiskit textbook shows the gradient rule as below. 
 
 ![gradient](https://github.com/JoshR220/HC59_Final_Project/blob/main/images/quantumgradient.png)
+
+Essentially all that occurs is that you shift the parameters of the quatum circuit one way and obatin a result, then shift the parameters the opposite way and obtain that result. The gradient is then the difference between those two results!
+ 
