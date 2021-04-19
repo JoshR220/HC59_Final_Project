@@ -10,3 +10,4 @@ In the course of this github repo I will attempt to extend the applications of t
 
 The demonstration of the hybrid network is to illustrate that quantum components can be used within the traditional network and still output a working result. Essentially, we want to show that the output of the classical network is not signficantly degraded after being feed into the quantum network. Whether quantum computers can have an advatnage over classical models is yet to be determined, but the first step is to illustrate that quantum is as good or only slightly worse than classical models. A depiction of a hybrid network from the Qiskit texbook is below. 
 
+![layers] (https://github.com/JoshR220/HC59_Final_Project/blob/main/images/layers_qiskit.png)
