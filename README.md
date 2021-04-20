@@ -21,5 +21,7 @@ The greatest difference between the classical and quantum machine learning compo
 Essentially, all that occurs is that you shift the parameters of the quatum circuit one way and obatin a result, then shift the parameters the opposite way and obtain that result. The gradient is then the difference between those two results! This rule allows us to run loss functions on the quantum component of the network and tune the parameters to reduce loss. 
 
 Given all the above information, the goal of this repsitory is expanding on the tutorial in the Qiskit textbook. Currently, the Qiskit tutorial only creates a hybrid network that learns to distinguish between the digits 0 and 1 and show that the hybrid network can well distinguish between the two digits after training- it is actually able to practically 100% determine the two digits after training. My goal is to expand this circuit to at least 4 digits- 0,1,2,3- and potentially add entanglement to see if that has an effect on the results of the hybrid network compared to a classical CNN. 
+
+I was unable to properly train the hybrid network for more than 2 digits. I had an accuracy hovering in the range of 25% for classification between 0,1,2,3- no better than guessing. My belief is that the gradient backpropagation isn't working properly and thus the network fails to train accordingly. Moving forward my goal would be to better integrate and develop the backpropagation feature in the hybrid network class. 
  
  (Pictures from Qiskit textbook and MNIST dataset)
